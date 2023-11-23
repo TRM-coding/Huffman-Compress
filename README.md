@@ -1,4 +1,4 @@
-# Bug fix history,fix
+# Bug fix history
 v2023.11.24-- fix undefined access to file and fold,fix some security bugs  
 
 v2023.11.23-- support you to write compress path with folder-name
