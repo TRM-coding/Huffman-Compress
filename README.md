@@ -6,6 +6,10 @@ v2023.11.13-- support you to write compress path with folder-name
 Huffman Compress Project based on terminal instead of Gui
 
 ## Introduction
+If you just want to try this program,you can download main.exe .
+main.exe should be run in the fold that you want to place your compress data,it will save compressed file in current directory
+
+
 after Compile,command list will guide  you to use this small but Inefficient tool. This program is only a practice during school time.you can import it
 for study or secondary development.**But please not c-v it and submitted in your homework!**
 
