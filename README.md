@@ -39,4 +39,6 @@ g++ Compress.cpp Compress.h Dcompress.cpp Decompress.h main.cpp -o output.exe
 
 to launch this program!  
 
-you can also open it with vscode,then write tasks.json by yourself
+you can also open it with vscode,then write tasks.json by yourself  
+
+**this is only a practice program,i didn't finish the security verify,please save all your work before using it**
