@@ -1,6 +1,15 @@
 # Huffman-Compress
 Huffman Compress Project based on terminal instead of Gui
 
+## Introduction
+after Compile,command list will guide  you to use this small but Inefficient tool. This program is only a practice during school time.you can import it
+for study or secondary development.**But please not c-v it and submitted in your homework!**
+
+After compress and decompress it will make an folder to storage output file.
+
+There are also some flaw in this program.
+you can **not** compress a file not exist in current directory with Absolute Path or Relative path.
+
 ## Compress.h-Compress.cpp
 Compressor class,finish the Compress progress
 
