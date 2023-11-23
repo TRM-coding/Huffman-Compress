@@ -95,7 +95,10 @@ void Compressor::encode()//need change.
 void Compressor::write_dictionary()
 {
     cout<<"Start writing dictionary file";
-
+    int psp=0;
+    for(int i=0;i<=file_name.size();i++)
+        if(file_name[i]=='/'||file_name[i]=='\\'){psp=i;break;}
+    file_name=file_name.substr(psp+1,file_name.size()-psp-1);
     if(!opendir((file_name+"_compress").c_str()))mkdir((file_name+"_compress").c_str());
 
 
