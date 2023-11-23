@@ -1,3 +1,7 @@
+# Bug fix history
+v2023.11.13-- support you to write compress path with folder-name
+
+
 # Huffman-Compress
 Huffman Compress Project based on terminal instead of Gui
 
