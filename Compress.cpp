@@ -80,7 +80,10 @@ void Compressor::encode()//need change.
     cout<<"Start encoding";
     int ctt=0;
     for(int i=0;i+data_st<=data_end;i++){
-        
+        if(ctt>800000000){
+            cout<<"Error:code too long!!!compress failed......"<<endl;
+            return;
+        }
         memccpy(code_res+ctt,dictionary_data_to_code[data_st[i]].c_str(),0,strlen(dictionary_data_to_code[data_st[i]].c_str())); 
         ctt+=strlen(dictionary_data_to_code[data_st[i]].c_str());
         if(i%((data_end-data_st)/10)==0){
